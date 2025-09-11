@@ -1,0 +1,23 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+:root {
+--bg: #f8f9fa;
+--fg: #212529;
+--card: #ffffff;
+--muted: #6c757d;
+--primary: #3b82f6;
+}
+
+body {
+background-color: var(--bg);
+color: var(--fg);
+}
+
+.dark {
+--bg: #121212;
+--fg: #f8f9fa;
+--card: #1e1e1e;
+--muted: #a3a3a3;
+--primary: #3b82f6;
+}
