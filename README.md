@@ -90,9 +90,6 @@ npm run lint     # Linter (si está configurado)
 **Diego Alejandro Ramírez Castro**  
 [GitHub]([https://github.com/[tu-usuario](https://github.com/Dieg0arc)](https://github.com/Dieg0arc)) • [LinkedIn]([https://linkedin.com/in/tu-perfil](https://www.linkedin.com/in/diego-alejandro-ramirez-castro-1585302b1/))
 
-##  Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ---
 
