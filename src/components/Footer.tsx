@@ -24,23 +24,24 @@ export function Footer() {
           </motion.div>
 
           {/* Customer Service */}
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} viewport={{ once: true }} className="space-y-4">
+          {/* <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} viewport={{ once: true }} className="space-y-4">
             <h4 className="font-semibold">Atención al Cliente</h4>
-            {/* <ul className="space-y-2 text-muted-foreground dark:text-muted">
+            <ul className="space-y-2 text-muted-foreground dark:text-muted">
               <li><a href="#" className="hover:text-foreground transition-colors">Política de Devoluciones</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Guía de Tallas</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Envíos</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">FAQ</a></li>
-            </ul> */}
-          </motion.div>
+            </ul>
+          </motion.div> */}
 
           {/* Contact Info */}
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }} viewport={{ once: true }} className="space-y-4">
             <h4 className="font-semibold">Contacto</h4>
             <div className="space-y-3 text-muted-foreground dark:text-muted">
-              <div className="flex items-center space-x-2"><Mail className="h-4 w-4" /><span>info@GoldenGoal.com</span></div>
-              <div className="flex items-center space-x-2"><Phone className="h-4 w-4" /><span>numero</span></div>
-              <div className="flex items-center space-x-2"><MapPin className="h-4 w-4" /><span>cuidad, pais</span></div>
+              <div className="flex items-center space-x-2"><Mail className="h-4 w-4" /><span>cdgoldengoal6@gmail.com</span></div>
+              <div className="flex items-center space-x-2"><Phone className="h-4 w-4" /><span>3008198413 / +1 (240) 741-9140‬
+</span></div>
+              <div className="flex items-center space-x-2"><MapPin className="h-4 w-4" /><span>Armenia Quindio- Maryland ( EEUU)</span></div>
             </div>
           </motion.div>
         </div>
