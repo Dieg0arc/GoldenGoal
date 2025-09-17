@@ -10,7 +10,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 
-import tiendaLogo from "../assets/logo-H.png";
+import tiendaLogo from "../assets/Logo-H.png";
 
 /**
  * Header
