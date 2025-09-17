@@ -43,7 +43,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#ninos" className="hover:text-foreground transition-colors">
+                <a href="#niños" className="hover:text-foreground transition-colors">
                   Niños
                 </a>
               </li>

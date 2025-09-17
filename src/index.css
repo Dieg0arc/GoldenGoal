@@ -24,11 +24,11 @@ color: var(--fg);
 
 /* Evita que el header tape los títulos al hacer scroll */
 #hero{
-  scroll-margin-top: 30px; /* ajusta si tu header cambia de tamaño */
+scroll-margin-top: 30px; /* ajusta si tu header cambia de tamaño */
 }
 #mujer,
 #hombre,
-#ninos,
+#niños,
 #contacto {
-  scroll-margin-top: 80px; /* ajusta si tu header cambia de tamaño */
+scroll-margin-top: 80px; /* ajusta si tu header cambia de tamaño */
 }

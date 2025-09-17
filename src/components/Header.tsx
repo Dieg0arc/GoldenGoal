@@ -134,9 +134,9 @@ const navTextClass =
                 Hombre
               </DropdownMenuItem>
               <DropdownMenuItem
-                onClick={() => scrollToSection("ninos")}
+                onClick={() => scrollToSection("niños")}
                 className={`${navTextClass} ${
-                  isActive("ninos") ? "text-primary" : ""
+                  isActive("niño") ? "text-primary" : ""
                 }`}
               >
                 Niños
@@ -207,7 +207,7 @@ const navTextClass =
             className="md:hidden border-t bg-background transition-colors duration-300 dark:bg-background/90"
           >
             <div className="py-4 space-y-2">
-              <Button
+              {/* <Button
                 variant="ghost"
                 className={`w-full justify-start pl-8 ${navTextClass} ${
                   isActive("mujer") ? `text-primary ${activeUnderlineClass}` : ""
@@ -215,7 +215,7 @@ const navTextClass =
                 onClick={() => scrollToSection("mujer")}
               >
                 Mujer
-              </Button>
+              </Button> */}
               <Button
                 variant="ghost"
                 className={`w-full justify-start pl-8 ${navTextClass} ${
@@ -228,9 +228,9 @@ const navTextClass =
               <Button
                 variant="ghost"
                 className={`w-full justify-start pl-8 ${navTextClass} ${
-                  isActive("ninos") ? `text-primary ${activeUnderlineClass}` : ""
+                  isActive("niños") ? `text-primary ${activeUnderlineClass}` : ""
                 }`}
-                onClick={() => scrollToSection("ninos")}
+                onClick={() => scrollToSection("niños")}
               >
                 Niños
               </Button>
