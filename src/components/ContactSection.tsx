@@ -70,7 +70,7 @@ export function ContactSection() {
     {
       icon: <img src={TikTokIcon} alt="TikTok" className="h-6 w-6" />,
       name: "TikTok",
-      href: "https://www.tiktok.com/@cd.golde.goal", // 👈 sin color
+      href: "https://www.tiktok.com/@cd.golden.goal?_t=ZS-8zo9Gf6aMGl&_r=1", // 👈 sin color
     },
   ];
 
