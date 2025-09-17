@@ -26,7 +26,7 @@ color: var(--fg);
 #hero{
 scroll-margin-top: 30px; /* ajusta si tu header cambia de tamaño */
 }
-#mujer,
+<!-- #mujer, -->
 #hombre,
 #niños,
 #contacto {
