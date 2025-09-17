@@ -66,7 +66,7 @@ export default function App() {
 
   ];
 
-  const womenProducts = featuredProducts.filter((p) => p.category === "mujer");
+  // const womenProducts = featuredProducts.filter((p) => p.category === "mujer");
   const menProducts = featuredProducts.filter((p) => p.category === "hombre");
   const kidsProducts = featuredProducts.filter((p) => p.category === "niños");
 
@@ -106,14 +106,14 @@ export default function App() {
         </section>
 
         {/* Colecciones */}
-        {womenProducts.length > 0 && (
+        {/* {womenProducts.length > 0 && (
           <ProductGrid id="mujer" title="Colección Mujer"products={womenProducts} />
-        )}
+        )} */}
         {menProducts.length > 0 && (
           <ProductGrid id="hombre" title="Colección Hombre" products={menProducts} />
         )}
         {kidsProducts.length > 0 && (
-          <ProductGrid id="ninos" title="Colección Niños" products={kidsProducts} />
+          <ProductGrid id="niños" title="Colección Niños" products={kidsProducts} />
         )}
 
         {/* Contact Section */}
