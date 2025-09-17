@@ -15,9 +15,20 @@ color: var(--fg);
 }
 
 .dark {
---bg: #121212;
+--bg: #202020;
 --fg: #f8f9fa;
---card: #1e1e1e;
+--card: #efb810;
 --muted: #a3a3a3;
 --primary: #3b82f6;
+}
+
+/* Evita que el header tape los títulos al hacer scroll */
+#hero{
+  scroll-margin-top: 30px; /* ajusta si tu header cambia de tamaño */
+}
+#mujer,
+#hombre,
+#ninos,
+#contacto {
+  scroll-margin-top: 80px; /* ajusta si tu header cambia de tamaño */
 }
