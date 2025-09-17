@@ -41,34 +41,34 @@ export default function App() {
   // Datos de productos (puedes usar tus imágenes locales)
   const featuredProducts = [
     { id: 2, name: "Argentina", image: img2, category: "hombre" },
-    { id: 11, name: "Argentina Niño", image: img11, category: "ninos" },
+    { id: 11, name: "Argentina Niño", image: img11, category: "niños" },
     { id: 1, name: "FCF Colombia 2025", image: img1, category: "hombre" },
 
     { id: 3, name: "Barcelona", image: img3, category: "hombre" },
-    { id: 12, name: "Barcelona Niño", image: img12, category: "ninos" },
+    { id: 12, name: "Barcelona Niño", image: img12, category: "niños" },
     { id: 7, name: "Honduras", image: img7, category: "hombre" },
 
     { id: 5, name: "Manchester City", image: img5, category: "hombre" },
-    { id: 13, name: "Manchester Niño", image: img13, category: "ninos" },
+    { id: 13, name: "Manchester Niño", image: img13, category: "niños" },
     { id: 6, name: "Inter Miami", image: img6, category: "hombre" },
 
     { id: 4, name: "Real Madrid", image: img4, category: "hombre" },
-    { id: 14, name: "Real Madrid Niño", image: img14, category: "ninos" },
+    { id: 14, name: "Real Madrid Niño", image: img14, category: "niños" },
     { id: 17, name: "Real Madrid Beisbolera", image: img17, category: "hombre" },
 
     { id: 9, name: "Salvador", image: img9, category: "hombre" },
-    { id: 15, name: "Salvador Niño", image: img15, category: "ninos" },
+    { id: 15, name: "Salvador Niño", image: img15, category: "niños" },
     { id: 18, name: "Salvador Beisbolera", image: img18, category: "hombre" },
 
     { id: 10, name: "Guatemala", image: img10, category: "hombre" },
-    { id: 16, name: "Guatemala Niños", image: img16, category: "ninos" },
+    { id: 16, name: "Guatemala Niños", image: img16, category: "niños" },
     { id: 8, name: "Mexico", image: img8, category: "hombre" },
 
   ];
 
   const womenProducts = featuredProducts.filter((p) => p.category === "mujer");
   const menProducts = featuredProducts.filter((p) => p.category === "hombre");
-  const kidsProducts = featuredProducts.filter((p) => p.category === "ninos");
+  const kidsProducts = featuredProducts.filter((p) => p.category === "niños");
 
   return (
     <div className="min-h-screen bg-background text-foreground">
