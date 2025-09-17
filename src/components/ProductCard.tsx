@@ -24,7 +24,7 @@ export function ProductCard({ name, image, category }: ProductCardProps) {
             <img
               src={image}
               alt={name}
-              className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
+              className="w-full h-100 object-cover transition-transform duration-300 hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
           </div>
