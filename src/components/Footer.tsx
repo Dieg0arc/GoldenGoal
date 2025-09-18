@@ -75,7 +75,7 @@ export function Footer() {
               </div>
               <div className="flex items-center justify-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Armenia Quindio- Maryland (EEUU)</span>
+                <span>Maryland (EEUU) - Armenia Quindio </span>
               </div>
             </div>
           </motion.div>
